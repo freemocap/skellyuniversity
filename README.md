@@ -35,7 +35,9 @@ curl -LsSf https://astral.sh/uv/install.sh | sh
 uv sync
 
 # Start the development server
-uv run myst start
+- cd skellyuniversity
+- uv run myst start
+
 ```
 
 Then open http://localhost:3000 in your browser.

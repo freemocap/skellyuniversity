@@ -13,8 +13,8 @@
 curl -LsSf https://astral.sh/uv/install.sh | sh
 
 # 2. Clone and enter the project
-git clone https://github.com/freemocap/freemocap-curriculum.git
-cd freemocap-curriculum
+git clone https://github.com/freemocap/skellyuniversity.git
+cd skellyuniversity
 
 # 3. Sync dependencies (creates venv + installs everything)
 uv sync
@@ -56,8 +56,8 @@ uv --version
 ### Step 2: Clone the Project
 
 ```bash
-git clone https://github.com/freemocap/freemocap-curriculum.git
-cd freemocap-curriculum
+git clone https://github.com/freemocap/skellyuniversity.git
+cd skellyuniversity
 ```
 
 ### Step 3: Sync Dependencies
@@ -109,7 +109,7 @@ uv run myst clean              # Clean build artifacts
 ## 🏗️ Project Structure
 
 ```
-freemocap-curriculum/
+skellyuniversity/
 ├── pyproject.toml               # Dependencies & project config
 ├── uv.lock                      # Locked versions (auto-generated)
 ├── myst.yml                     # MyST configuration
